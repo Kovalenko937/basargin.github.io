@@ -1,0 +1,93 @@
+.image-container {
+  background-image: url("images/фон2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+	margin-bottom:0; 
+	text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {
+  height: 350px;
+  width: 33.333%;
+  background-image: url("images/Басаргин3.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: .5rem;
+}
+.col-2 {
+  height: 350px;
+  width: 33.333%; 
+  background-image: url("images/Басаргин1.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: .5rem;
+}
+.col-3 {
+  height: 350px;
+  width: 33.333%; 
+  background-image: url("images/Басаргин2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: .5rem;
+}
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.menu {
+	height:100%;width:15%;float:left; 
+
+}	
+   
+  .menu {
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+}
+    .menu a {
+        display: block;
+        width: 100%;
+        padding:10px;
+        border-top: 1px dashed #333;
+        border-right: 1px dashed #333;
+        border-left: 5px solid #333;
+        text-decoration: none;
+        color: #333;
+}
+    .menu li:last-child a {
+        border-bottom: 1px dashed #333;
+}
+ .section {	
+	display: inline-block;	
+	height:100%;
+	width:41%;
+	float:left;
+	justify-content: space-between;
+	margin: 10px;
+	border: 1px dashed black;
+}
+.section p {
+	font-size: 1.3em;
+	text-align: center;
+}
+.section p1 {
+	 font-size: 1.1em; 
+	 text-align: justify;
+}
+.section img {
+  float: right;
+  margin-right: 20px;
+}
+.footer {
+	clear:both;
+	text-align:center;
+	border: 3px dashed #333;
+}
